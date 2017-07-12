@@ -1,0 +1,307 @@
+{
+   "About": {
+      "message": "About"
+   },
+   "About_Diigo": {
+      "message": "About Diigo"
+   },
+   "Auto_fit_screen": {
+      "message": "Auto Fit Screen"
+   },
+   "Back": {
+      "message": "Back"
+   },
+   "Cancel": {
+      "message": "Cancel"
+   },
+   "Capture_desktop": {
+      "message": "Capture desktop"
+   },
+   "Connecting": {
+      "message": "Connecting…"
+   },
+   "Copy_to_clipboard": {
+      "message": "Copy to clipboard"
+   },
+   "Crop": {
+      "message": "Crop"
+   },
+   "Done": {
+      "message": "Done"
+   },
+   "Edit": {
+      "message": "Edit"
+   },
+   "Feedback_link": {
+      "message": "Help & Feedback"
+   },
+   "Feedback_tip": {
+      "message": "Have questions or suggestions?"
+   },
+   "Font_Size": {
+      "message": "Font Size"
+   },
+   "Forget_password": {
+      "message": "Forget password"
+   },
+   "General_setting": {
+      "message": "General Setting"
+   },
+   "Go_to_gallery": {
+      "message": "Go to Gallery"
+   },
+   "Height": {
+      "message": "Height"
+   },
+   "Learn_more": {
+      "message": "Learn more"
+   },
+   "Loading_fonts": {
+      "message": "Loading fonts..."
+   },
+   "Login_Google": {
+      "message": "Authorize"
+   },
+   "No": {
+      "message": "No"
+   },
+   "No_images_yet": {
+      "message": "No images yet."
+   },
+   "Number": {
+      "message": "Number"
+   },
+   "On_Google_Drive": {
+      "message": "On Google Drive"
+   },
+   "Password": {
+      "message": "Password"
+   },
+   "Permanently_on_Diigo": {
+      "message": "Permanently on Diigo.com"
+   },
+   "Print_the_screenshot": {
+      "message": "Print the screenshot"
+   },
+   "Private": {
+      "message": "Private"
+   },
+   "Re_edit": {
+      "message": "Re-Edit"
+   },
+   "Resize": {
+      "message": "Resize"
+   },
+   "Restart_Sequence": {
+      "message": "Restart Sequence"
+   },
+   "Save": {
+      "message": "Save"
+   },
+   "Save_Local": {
+      "message": "Save Local"
+   },
+   "Save_Online": {
+      "message": "Save Online"
+   },
+   "Save_image_as_file": {
+      "message": "Save image as file"
+   },
+   "Setting_format": {
+      "message": "Export image format:"
+   },
+   "Sign_In": {
+      "message": "Sign In"
+   },
+   "Sign_Ining": {
+      "message": "Sign In…"
+   },
+   "Sign_out": {
+      "message": "Sign Out"
+   },
+   "Tags": {
+      "message": "Tags (Comma seperated)"
+   },
+   "Temporarily": {
+      "message": "Temporarily"
+   },
+   "Title": {
+      "message": "Title"
+   },
+   "Uploading": {
+      "message": "Uploading…"
+   },
+   "Username_Email": {
+      "message": "Username/Email"
+   },
+   "View_Images_Diigo": {
+      "message": "View all your images on Diigo.com"
+   },
+   "View_the_image_gallery": {
+      "message": "View the image gallery"
+   },
+   "Weibo": {
+      "message": "Weibo"
+   },
+   "Width": {
+      "message": "Width"
+   },
+   "Yes": {
+      "message": "Yes"
+   },
+   "app_description": {
+      "description": "Application description",
+      "message": "Annotation tool for your screenshot and picture"
+   },
+   "app_name": {
+      "description": "Application name",
+      "message": "Awesome Screenshot App"
+   },
+   "info_already_diigo": {
+      "message": "Already have an Diigo account?"
+   },
+   "info_auto_fit_screen": {
+      "message": "Set scale automatically to fit screen?"
+   },
+   "info_awesome": {
+      "message": "Your screenshot will be saved on Awesomescreenshot.com, which will be automatically removed after about 3 days."
+   },
+   "info_diigo_a": {
+      "message": "Diigo is a free, all-purpose collecting tool that enables you to"
+   },
+   "info_diigo_b": {
+      "message": "bookmark, archive and annotate webpages."
+   },
+   "info_diigo_c": {
+      "message": "save notes, images and screenshots."
+   },
+   "info_diigo_d": {
+      "message": "search, organize, and share your data in a variety of ways."
+   },
+   "info_diigo_e": {
+      "message": "access anywhere using Diigo apps on Android, Iphone and Ipad."
+   },
+   "info_drag_drop": {
+      "message": "Drag & drop an image here, or click to select from a folder."
+   },
+   "info_exceeded": {
+      "message": "You have reached the limitation for free user, please update your account."
+   },
+   "info_google_oauth": {
+      "message": "The app requires user authorization  to access Google drive account"
+   },
+   "info_image_link_private": {
+      "message": "Image Link (private image)"
+   },
+   "info_image_link_public": {
+      "message": "Image Link (share via MSN, GTalk, etc.)"
+   },
+   "info_new_diigo": {
+      "message": "New to Diigo? Connect to diigo.com via"
+   },
+   "info_new_diigo2": {
+      "message": "Don't have a Diigo account yet?"
+   },
+   "info_paste": {
+      "message": "You can even paste an image from clipboard by pressing"
+   },
+   "info_up_incorrect": {
+      "message": "username or password incorrect"
+   },
+   "sign_up": {
+      "message": "Create a Diigo account now (free!)"
+   },
+   "tip_add": {
+      "message": "ADD"
+   },
+   "tip_annotation": {
+      "message": "Insert image"
+   },
+   "tip_blur": {
+      "message": "Blur"
+   },
+   "tip_callout": {
+      "message": "Callout"
+   },
+   "tip_clear": {
+      "message": "Clear all"
+   },
+   "tip_color": {
+      "message": "Change color"
+   },
+   "tip_copy": {
+      "message": "COPY"
+   },
+   "tip_crop": {
+      "message": "Crop"
+   },
+   "tip_delete": {
+      "message": "Remove"
+   },
+   "tip_edit": {
+      "message": "Edit"
+   },
+   "tip_edit_title": {
+      "message": "Click to edit."
+   },
+   "tip_font": {
+      "message": "Change font"
+   },
+   "tip_pen_width": {
+      "message": "Change line width"
+   },
+   "tip_print": {
+      "message": "PRINT"
+   },
+   "tip_redo": {
+      "message": "Redo"
+   },
+   "tip_resize": {
+      "message": "Resize"
+   },
+   "tip_save": {
+      "message": "SAVE"
+   },
+   "tip_search": {
+      "message": "SEARCH"
+   },
+   "tip_set_zoom_value": {
+      "message": "Change scaling"
+   },
+   "tip_setting": {
+      "message": "SETTING"
+   },
+   "tip_shape_bezier_arrow": {
+      "message": "Curve arrow"
+   },
+   "tip_shape_ellipse": {
+      "message": "Eclipse"
+   },
+   "tip_shape_line": {
+      "message": "Line"
+   },
+   "tip_shape_line_arrow": {
+      "message": " Arrow"
+   },
+   "tip_shape_rect": {
+      "message": "Rectangle"
+   },
+   "tip_step": {
+      "message": "Insert step"
+   },
+   "tip_textbox": {
+      "message": "Inset text"
+   },
+   "tip_transparent": {
+      "message": "Change transparency"
+   },
+   "tip_undo": {
+      "message": "Undo"
+   },
+   "tip_zoom_in": {
+      "message": "Zoom in"
+   },
+   "tip_zoom_out": {
+      "message": "Zoom out"
+   }
+}

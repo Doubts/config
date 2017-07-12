@@ -1,0 +1,12 @@
+{
+   "appDesc": {
+      "message": "이미지를 원하는대로 아름다운 PDF로 변환"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Image PDF 변환기 - Smallpdf.com"
+   },
+   "appShortName": {
+      "message": "이미지 PDF 변환"
+   }
+}

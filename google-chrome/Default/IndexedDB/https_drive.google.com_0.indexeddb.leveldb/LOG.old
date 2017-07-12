@@ -1,0 +1,6 @@
+2017/07/10-07:36:16.331 2298 Reusing MANIFEST /home/jhzhan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/07/10-07:36:16.332 2298 Recovering log #3
+2017/07/10-07:36:16.447 2298 Reusing old log /home/jhzhan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000003.log 
+2017/07/10-07:36:21.151 3465 Level-0 table #5: started
+2017/07/10-07:36:21.270 3465 Level-0 table #5: 696231 bytes OK
+2017/07/10-07:36:21.374 3465 Delete type=0 #3

@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://intelloware.com/art/"
+      },
+      "urls": [ "http://intelloware.com/art/" ]
+   },
+   "description": "Explore your Creativity. Drawing application with a number of cool brushes, symmetry modes, sharing features. Inspired by Harmony.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRP8+iGn33tX669erKgQzlZywpzHMEle6HoMA6cHKXStvoKue+1npRMmVWGwpOA8YZxUAWcVkPylAvoHqQbHyTaReSbKnH+11jQSquZv1JrqqfaZxh9nY4ICK8qYv7YXc2KMEzkH4upbcuuHaNSH4YT4fotQXImrHVaQji2az7VwIDAQAB",
+   "manifest_version": 2,
+   "name": "InspirARTion - Sketch & Draw!",
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "15"
+}

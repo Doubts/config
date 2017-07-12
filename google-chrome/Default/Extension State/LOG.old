@@ -1,0 +1,24 @@
+2017/07/10-07:32:09.015 2293 Reusing MANIFEST /home/jhzhan/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2017/07/10-07:32:09.016 2293 Recovering log #1155
+2017/07/10-07:32:09.064 2293 Reusing old log /home/jhzhan/.config/google-chrome/Default/Extension State/001155.log 
+2017/07/10-07:38:45.695 3057 Level-0 table #1159: started
+2017/07/10-07:38:45.941 3057 Level-0 table #1159: 4016767 bytes OK
+2017/07/10-07:38:45.986 3057 Delete type=0 #1155
+2017/07/10-07:38:45.996 3057 Compacting 4@0 + 1@1 files
+2017/07/10-07:38:46.405 3057 Generated table #1160@0: 18 keys, 18186 bytes
+2017/07/10-07:38:46.405 3057 Compacted 4@0 + 1@1 files => 18186 bytes
+2017/07/10-07:38:46.449 3057 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/07/10-07:38:46.449 3057 Delete type=2 #1152
+2017/07/10-07:38:46.450 3057 Delete type=2 #1159
+2017/07/10-07:38:46.450 3057 Delete type=2 #1154
+2017/07/10-07:38:46.451 3057 Delete type=2 #1150
+2017/07/10-07:38:46.451 3057 Delete type=2 #1156
+2017/07/10-07:54:12.509 3057 Level-0 table #1162: started
+2017/07/10-07:54:12.749 3057 Level-0 table #1162: 3864746 bytes OK
+2017/07/10-07:54:12.783 3057 Delete type=0 #1158
+2017/07/10-08:31:31.049 3057 Level-0 table #1164: started
+2017/07/10-08:31:31.206 3057 Level-0 table #1164: 3795629 bytes OK
+2017/07/10-08:31:31.296 3057 Delete type=0 #1161
+2017/07/10-12:01:40.220 3057 Level-0 table #1166: started
+2017/07/10-12:01:40.462 3057 Level-0 table #1166: 4135801 bytes OK
+2017/07/10-12:01:40.510 3057 Delete type=0 #1163

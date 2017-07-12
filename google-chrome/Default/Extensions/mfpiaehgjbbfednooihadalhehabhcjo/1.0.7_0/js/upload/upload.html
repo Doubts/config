@@ -1,0 +1,20 @@
+<div class="upload-page">
+    <div class="upload-zone">
+        <div class="inner-zone">
+            <div class="upload-icon"></div>
+            <p>
+                <!--{{Drag & drop an image here, or click to select from a folder.-->
+                {{'info_drag_drop'|i18n}}
+            </p>
+            <p>
+                <!--Even you can paste an image from clipboard by press {{ctrlKey}}-v.-->
+                {{'info_paste'|i18n}}&nbsp;{{ctrlKey}}-v
+            </p>
+        </div>
+        <input type="file" class="upload-file" accept="image/*">
+    </div>
+    <div class="upload-bottom">
+        <a ng-click="capture()" class="upload-capture-btn"><span class="link-underline">{{'Capture_desktop'|i18n}}<span></span></span></a>
+        <a ng-click="show()" class="upload-bottom-btn"><span class="link-underline">{{'View_the_image_gallery'|i18n}}<span></span></span></a>
+    </div>
+</div>

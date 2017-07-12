@@ -1,0 +1,30 @@
+2017/07/10-07:32:20.283 2349 Reusing MANIFEST /home/jhzhan/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2017/07/10-07:32:20.284 2349 Recovering log #1711
+2017/07/10-07:32:20.306 2349 Reusing old log /home/jhzhan/.config/google-chrome/Default/Session Storage/001711.log 
+2017/07/10-07:38:55.513 3057 Level-0 table #1715: started
+2017/07/10-07:38:55.569 3057 Level-0 table #1715: 71867 bytes OK
+2017/07/10-07:38:55.651 3057 Delete type=0 #1711
+2017/07/10-07:40:13.484 3057 Level-0 table #1717: started
+2017/07/10-07:40:13.601 3057 Level-0 table #1717: 67330 bytes OK
+2017/07/10-07:40:13.635 3057 Delete type=0 #1714
+2017/07/10-07:44:55.987 3057 Level-0 table #1719: started
+2017/07/10-07:44:56.020 3057 Level-0 table #1719: 185053 bytes OK
+2017/07/10-07:44:56.054 3057 Delete type=0 #1716
+2017/07/10-07:44:56.054 3057 Compacting 4@0 + 1@1 files
+2017/07/10-07:44:56.154 3057 Generated table #1720@0: 4405 keys, 1218913 bytes
+2017/07/10-07:44:56.154 3057 Compacted 4@0 + 1@1 files => 1218913 bytes
+2017/07/10-07:44:56.187 3057 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/07/10-07:44:56.187 3057 Delete type=2 #1712
+2017/07/10-07:44:56.187 3057 Delete type=2 #1719
+2017/07/10-07:44:56.188 3057 Delete type=2 #1715
+2017/07/10-07:44:56.188 3057 Delete type=2 #1717
+2017/07/10-07:44:56.188 3057 Delete type=2 #1710
+2017/07/10-08:16:07.605 3057 Compacting 1@1 + 1@2 files
+2017/07/10-08:16:07.680 3057 Level-0 table #1722: started
+2017/07/10-08:16:11.745 3057 Level-0 table #1722: 11660 bytes OK
+2017/07/10-08:16:12.011 3057 Delete type=0 #1718
+2017/07/10-08:16:12.502 3057 Generated table #1723@1: 678 keys, 1162717 bytes
+2017/07/10-08:16:12.502 3057 Compacted 1@1 + 1@2 files => 1162717 bytes
+2017/07/10-08:16:12.761 3057 compacted to: files[ 1 0 1 0 0 0 0 ]
+2017/07/10-08:16:12.762 3057 Delete type=2 #1560
+2017/07/10-08:16:12.831 3057 Delete type=2 #1720

@@ -1,0 +1,65 @@
+<div class="menuPanel" id="menuPanel">
+    <div class="part color" pos="161,85">
+        <div class="colorPanel">
+            <!-- 代码填充 -->
+        </div>
+        <div class="opacityPanel" title="{{'tip_transparent'|i18n}}">
+            <input id="opacitySlider" type="range" min="0" max="1.0" value="1.0" step="0.01"/>
+            <img src="images/ransparency.png">
+            <p id="opacityValue">100%</p>
+        </div>
+    </div>
+    <div class="part penWidth" pos="90,106">
+        <!-- 代码填充 -->
+    </div>
+    <div class="part scale" pos="60,146">
+        <!-- 代码填充 -->
+    </div>
+    <div class="part shape" pos="40,46">
+        <!-- 代码填充 -->
+    </div>
+    <div class="part arrow" pos="40,66">
+        <!-- 代码填充 -->
+    </div>
+    <div class="part annotation" pos="175,225">
+        <!-- 代码填充 -->
+    </div>
+    <div class="part font" pos="135, 318">
+        <div class="font-size">
+            {{'Font_Size'|i18n}}: <input type="number" value="20" min="10" max="30"> px
+        </div>
+        <div class="font-list">
+            <!-- 代码填充 -->
+            <p>{{'Loading_fonts'|i18n}}...</p>
+        </div>
+    </div>
+    <div class="part size" pos="142,125">
+        <div class="row width-row">
+            <span>{{'Width'|i18n}}</span>
+            <input class="num width" type="number" min="0" max="10000" value="0" />
+            <a class="btn btn-unit">
+                <span>px</span>
+                <img src="images/triangle.png"/>
+            </a>
+        </div>
+        <div class="row height-row">
+            <span>{{'Height'|i18n}}</span>
+            <input class="num height" type="number" min="0" max="10000" value="0"/>
+            <a class="btn btn-unit">
+                <span>px</span>
+                <img src="images/triangle.png"/>
+            </a>
+        </div>
+        <div class="row">
+            <input id="proportional-check" class="proportional-check" type="checkbox" checked="true"/><label for="proportional-check">Proportional</label>
+        </div>
+        <div class="row">
+            <button class="btn btn-resize">{{'Resize'|i18n}}</button>
+            <button class="btn btn-cancel">{{'Cancel'|i18n}}</button>
+        </div>
+        <div class="unit-dialog">
+            <a class="btn">px</a>
+            <a class="btn">%</a>
+        </div>
+    </div>
+</div>

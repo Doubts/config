@@ -1,0 +1,307 @@
+{
+   "About": {
+      "message": "关于"
+   },
+   "About_Diigo": {
+      "message": "关于Diigo"
+   },
+   "Auto_fit_screen": {
+      "message": "自动适应屏幕"
+   },
+   "Back": {
+      "message": "返回"
+   },
+   "Cancel": {
+      "message": "取消"
+   },
+   "Capture_desktop": {
+      "message": "桌面截图"
+   },
+   "Connecting": {
+      "message": "连接中…"
+   },
+   "Copy_to_clipboard": {
+      "message": "复制到剪贴版"
+   },
+   "Crop": {
+      "message": "剪裁"
+   },
+   "Done": {
+      "message": "完成"
+   },
+   "Edit": {
+      "message": "编辑"
+   },
+   "Feedback_link": {
+      "message": "帮助 & 反馈"
+   },
+   "Feedback_tip": {
+      "message": "问题或建议?"
+   },
+   "Font_Size": {
+      "message": "字号"
+   },
+   "Forget_password": {
+      "message": "忘记密码"
+   },
+   "General_setting": {
+      "message": "一般设置"
+   },
+   "Go_to_gallery": {
+      "message": "返回图册"
+   },
+   "Height": {
+      "message": "高"
+   },
+   "Learn_more": {
+      "message": "查看详情"
+   },
+   "Loading_fonts": {
+      "message": "正在加载字体"
+   },
+   "Login_Google": {
+      "message": "授权"
+   },
+   "No": {
+      "message": "否"
+   },
+   "No_images_yet": {
+      "message": "没有图片"
+   },
+   "Number": {
+      "message": "序号"
+   },
+   "On_Google_Drive": {
+      "message": "保存到Google Drive上"
+   },
+   "Password": {
+      "message": "密码"
+   },
+   "Permanently_on_Diigo": {
+      "message": "永久储存在Diigo.com上"
+   },
+   "Print_the_screenshot": {
+      "message": "打印这个图片"
+   },
+   "Private": {
+      "message": "私有图片"
+   },
+   "Re_edit": {
+      "message": "再次编辑"
+   },
+   "Resize": {
+      "message": "完成"
+   },
+   "Restart_Sequence": {
+      "message": "重置序号"
+   },
+   "Save": {
+      "message": "储存"
+   },
+   "Save_Local": {
+      "message": "本地储存"
+   },
+   "Save_Online": {
+      "message": "在线储存"
+   },
+   "Save_image_as_file": {
+      "message": "文件另存为"
+   },
+   "Setting_format": {
+      "message": "图片导出格式："
+   },
+   "Sign_In": {
+      "message": "登录"
+   },
+   "Sign_Ining": {
+      "message": "登录中…"
+   },
+   "Sign_out": {
+      "message": "登出"
+   },
+   "Tags": {
+      "message": "标签(逗号分隔)"
+   },
+   "Temporarily": {
+      "message": "临时保存"
+   },
+   "Title": {
+      "message": "标题"
+   },
+   "Uploading": {
+      "message": "上传中…"
+   },
+   "Username_Email": {
+      "message": "用户名/邮箱"
+   },
+   "View_Images_Diigo": {
+      "message": "去diigo.com查看您的全部图片"
+   },
+   "View_the_image_gallery": {
+      "message": "查看图片相册"
+   },
+   "Weibo": {
+      "message": "微博"
+   },
+   "Width": {
+      "message": "宽"
+   },
+   "Yes": {
+      "message": "是"
+   },
+   "app_description": {
+      "description": "Application description",
+      "message": "捕获整个页面或任何部分，矩形，圆形，箭头，线条和文字，模糊敏感信息，一键上传分享注释。支持PNG和链接"
+   },
+   "app_name": {
+      "description": "Application name",
+      "message": "网页截图:注释&批注"
+   },
+   "info_already_diigo": {
+      "message": "己有Diigo账号？请登录："
+   },
+   "info_auto_fit_screen": {
+      "message": "编辑大图片时，自动调整缩放以适应屏幕大小："
+   },
+   "info_awesome": {
+      "message": "您的图片会被储存在Awesomescreenshot.com上，3天后将会被自动删除，在此前您可以任意分享它。"
+   },
+   "info_diigo_a": {
+      "message": "Diigo是一款免费的，全功能的收藏整理工具。通过它您可以方便地："
+   },
+   "info_diigo_b": {
+      "message": "对网页进行收藏，储存和标注；"
+   },
+   "info_diigo_c": {
+      "message": "保存笔记，图片和屏幕截图；"
+   },
+   "info_diigo_d": {
+      "message": "搜索、整理和分享您的资料；"
+   },
+   "info_diigo_e": {
+      "message": "通过安卓、iPhone、iPad等的客户端随时随地访问Diigo上的资料。"
+   },
+   "info_drag_drop": {
+      "message": "将图片拖拽放到此处，或者点击此处打开图片文件。"
+   },
+   "info_exceeded": {
+      "message": "您上传总量达到免费账号的上限。升级账号拥有更多容量。"
+   },
+   "info_google_oauth": {
+      "message": "上传前需要得到您的Google账号授权："
+   },
+   "info_image_link_private": {
+      "message": "图片链接（私密图片只能你自己看到）："
+   },
+   "info_image_link_public": {
+      "message": "图片链接（您可以通过各种渠道分享）："
+   },
+   "info_new_diigo": {
+      "message": "还没有Diigo账号？使用Google账号登录："
+   },
+   "info_new_diigo2": {
+      "message": "还没有diigo账号？"
+   },
+   "info_paste": {
+      "message": "你也可以粘贴图片到这里，请使用快捷键"
+   },
+   "info_up_incorrect": {
+      "message": "用户名或密码错误"
+   },
+   "sign_up": {
+      "message": "免费创建一个diigo账号！"
+   },
+   "tip_add": {
+      "message": "添加"
+   },
+   "tip_annotation": {
+      "message": "插入图案"
+   },
+   "tip_blur": {
+      "message": "模糊图片"
+   },
+   "tip_callout": {
+      "message": "绘制标注"
+   },
+   "tip_clear": {
+      "message": "清空全部图形"
+   },
+   "tip_color": {
+      "message": "更改颜色"
+   },
+   "tip_copy": {
+      "message": "复制"
+   },
+   "tip_crop": {
+      "message": "剪裁图片"
+   },
+   "tip_delete": {
+      "message": "删除"
+   },
+   "tip_edit": {
+      "message": "编辑"
+   },
+   "tip_edit_title": {
+      "message": "点击编辑"
+   },
+   "tip_font": {
+      "message": "设置字体和大小"
+   },
+   "tip_pen_width": {
+      "message": "更改画笔粗细"
+   },
+   "tip_print": {
+      "message": "打印"
+   },
+   "tip_redo": {
+      "message": "重做"
+   },
+   "tip_resize": {
+      "message": "修改图片尺寸"
+   },
+   "tip_save": {
+      "message": "保存"
+   },
+   "tip_search": {
+      "message": "搜索"
+   },
+   "tip_set_zoom_value": {
+      "message": "调整画布缩放"
+   },
+   "tip_setting": {
+      "message": "设置"
+   },
+   "tip_shape_bezier_arrow": {
+      "message": "绘制曲线箭头"
+   },
+   "tip_shape_ellipse": {
+      "message": "绘制椭圆"
+   },
+   "tip_shape_line": {
+      "message": "绘制直线"
+   },
+   "tip_shape_line_arrow": {
+      "message": "绘制直线箭头"
+   },
+   "tip_shape_rect": {
+      "message": "绘制矩形"
+   },
+   "tip_step": {
+      "message": "插入序号"
+   },
+   "tip_textbox": {
+      "message": "插入文本框"
+   },
+   "tip_transparent": {
+      "message": "设置颜色透明度"
+   },
+   "tip_undo": {
+      "message": "撤销"
+   },
+   "tip_zoom_in": {
+      "message": "缩小画布"
+   },
+   "tip_zoom_out": {
+      "message": "放大画布"
+   }
+}

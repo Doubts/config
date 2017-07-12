@@ -1,0 +1,20 @@
+<div class="image-gallery">
+    <p ng-show="IMAGE_ARRAY.length == 0">{{'No_images_yet' | i18n}}</p>
+    <div ng-show="IMAGE_ARRAY.length > 0" class="image-container" ng-repeat="image in IMAGE_ARRAY | orderBy:'time':true" diigo-repeat>
+        <div class="inner-container" ng-click="CTRL.shareImage(image.fileName)">
+            <img class="main-image" ng-src="{{image.url}}" file-name="{{image.fileName}}" />
+            <div class="ctrl" ng-class="active">
+                <a ng-click="CTRL.editImage(image.fileName); $event.stopPropagation();" title="{{'tip_edit' | i18n}}">
+                    <img src="images/icons2.png">
+                </a>
+                <a ng-click="CTRL.deleteImage(image.fileName);$event.stopPropagation();" title="{{'tip_delete' | i18n}}">
+                    <img src="images/icons3.png">
+                </a>
+            </div>
+        </div>
+        <p class="info" title="{{'tip_edit_title' | i18n}}">
+            <span>{{image.title}}</span>
+            <input class="txt" value="{{image.title}}"/>
+        </p>
+    </div>
+</div>

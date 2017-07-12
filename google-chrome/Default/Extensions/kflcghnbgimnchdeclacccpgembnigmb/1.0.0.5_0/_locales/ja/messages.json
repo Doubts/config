@@ -1,0 +1,12 @@
+{
+   "appDesc": {
+      "message": "皆様のイメージファイル をそのままPDFに変換 - 皆様 待望のアプリケーション"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "JPEG PDF 変換 - Smallpdf.com"
+   },
+   "appShortName": {
+      "message": "イメージファイル PDF 変換"
+   }
+}

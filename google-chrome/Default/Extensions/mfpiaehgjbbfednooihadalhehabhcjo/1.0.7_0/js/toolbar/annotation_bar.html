@@ -1,0 +1,81 @@
+<div id="annotation_bar" ng-show="APP_MODE == 'editor' || APP_MODE == 'clip'">
+    <div ng-show="APP_MODE != 'clip'">
+        <a ctrl="menu" title="{{'tip_resize'|i18n}}" type="size" class="btn"><img src="images/resize.png"></a>
+        <a ctrl="crop" title="{{'tip_crop'|i18n}}" val="begin" class="btn"><img src="images/capture.png"></a>
+        <span class="fenge"><img src="images/fenge.png"></span>
+        <a ctrl="shape" title="{{'tip_curve'|i18n}}" shape="curve" class="btn selected"><img src="images/draw.png"></a>
+
+        <div class="btn-group" shape="rect">
+            <a class="btn btn-shape" ctrl="shape" title="{{'tip_shape_rect'|i18n}}" shape="rect" ><img src="images/rect.png"></a>
+            <a class="triangle" title="select shape" ctrl="menu" type="shape"><img src="images/triangle.png"></a>
+        </div>
+        <div class="btn-group" shape="line_arrow">
+            <a class="btn btn-arrow" ctrl="shape" title="{{'tip_shape_line'|i18n}}" shape="line_arrow" ><img src="images/line_arrow.png"></a>
+            <a class="triangle" title="select arrow" ctrl="menu" type="arrow"><img src="images/triangle.png"></a>
+        </div>
+
+        <a class="btn" ctrl="shape" title="{{'tip_callout'|i18n}}" shape="callout"><img src="images/callout.png"></a>
+
+        <a class="btn" ctrl="shape" title="{{'tip_step'|i18n}}" shape="list"><img src="images/123.png"></a>
+
+        <a ctrl="shape" shape="text" title="{{'tip_textbox'|i18n}}" class="btn"><img src="images/word.png"></a>
+        <a ctrl="shape" shape="rect_blur" title="{{'tip_blur'|i18n}}" class="btn"><img src="images/blur.png"></a>
+
+
+
+
+        <a class="btn btn-annotation" ctrl="menu" title="{{'tip_annotation'|i18n}}" shape="image" type="annotation">
+            <img src="images/gou.png">
+            <img src="images/triangle.png">
+        </a>
+
+        <span class="fenge"><img src="images/fenge.png"></span>
+
+        <a ctrl="menu" type="color" title="{{'tip_color'|i18n}}" class="btn btn-color">
+            <span class="color"><i></i></span>
+        </a>
+
+        <a ctrl="menu" type="penWidth" title="{{'tip_pen_width'|i18n}}" class="btn btn-pen-width">
+            <b></b><span>2px</span>
+        </a>
+        <a ctrl="menu" type="font" class="btn btn-font" title="{{'tip_font'|i18n}}" style="display: none;">
+            <span class="font-name">Times New Roman</span><span>,&nbsp;</span><span class="font-size">20px</span>
+        </a>
+        <a ctrl="resetList" title="{{'tip_reset_step'|i18n}}" class="btn btn-list-reset" style="display: none;"><span>{{'Restart_Sequence'|i18n}}</span></a>
+
+        <span class="fenge"><img src="images/fenge.png"></span>
+        <a ctrl="undo" class="btn btn-undo" title="{{'tip_undo'|i18n}}"><img src="images/undo.png"></a>
+        <a ctrl="redo" class="btn btn-redo" title="{{'tip_redo'|i18n}}"><img src="images/redo.png"></a>
+        <a ctrl="clear" class="btn btn-clear" title="{{'tip_clear'|i18n}}"><img src="images/wipe2.png"></a>
+        <a ctrl="del" class="btn btn-del" title="{{'tip_delete'|i18n}}"><img src="images/delete.png"></a>
+
+        <span class="fenge"><img src="images/fenge.png"></span>
+        <a ctrl="zoom" val="small" title="{{'tip_zoom_out'|i18n}}" class="btn btn-zoom-in"><img src="images/zoom-.png"></a>
+
+        <a ctrl="menu" type="scale" title="{{'tip_set_zoom_value'|i18n}}" class="btn btn-zoom">
+            <span>100%</span>
+            <img src="images/triangle2.png">
+        </a>
+
+        <a ctrl="zoom" val="big" title="{{'tip_zoom_in'|i18n}}" class="btn btn-zoom-out"><img src="images/zoom+.png"></a>
+
+    </div>
+    <div ng-show="APP_MODE == 'clip'" class="crop-bar">
+        <a ctrl="crop" val="done" class="btn btn-crop-ok">{{'Crop'|i18n}}</a>
+        <a ctrl="crop" val="cancel" class="btn btn-crop-cancel">{{'Cancel'|i18n}}</a>
+
+        <div class="crop-size">
+            <span>{{'Width'|i18n}}:</span><input type="number" class="crop-width"/>
+            <span>{{'Height'|i18n}}:</span><input type="number" class="crop-height"/>
+        </div>
+    </div>
+
+
+    <a ctrl="save" class="btn btn-save" ng-show="APP_MODE != 'clip'">
+        {{'Done'|i18n}}
+    </a>
+    <a ctrl="cancel" class="btn btn-cancel" ng-show="APP_MODE != 'clip'">
+        {{'Cancel'|i18n}}
+    </a>
+
+</div>

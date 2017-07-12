@@ -1,0 +1,19 @@
+<div class="step share ng-hide">
+    <div class="social" ng-show="state.is_private == 'false'">
+        <a class="facebook" title="Facebook" href="http://www.facebook.com/sharer.php?u=" target="_blank"></a>
+        <a class="twitter" title="Twitter" href="http://twitter.com/home?status=" target="_blank"></a>
+        <a class="gplus" title="Google Plus" href="https://plus.google.com/share?url=" target="_blank"></a>
+        <a class="weibo" title="Weibo" href="http://service.weibo.com/share/share.php?" target="_blank"></a>
+    </div>
+    <div class="email" ng-show="state.is_private == 'false'">
+        <a class="gmail" title="Gmail" href="https://mail.google.com/mail/?view=cm&amp;tf=0&amp;fs=1&amp;body=" target="_blank"></a>
+        <a class="yahoo" title="Yahoo mail" href="http://compose.mail.yahoo.com/" target="_blank"></a>
+        <a class="hotmail" title="Hotmail" href="http://www.hotmail.msn.com/secure/start?action=compose&amp;body=" target="_blank"></a>
+        <!--<a class="aol" title="Aol" href="http://webmail.aol.com/Mail/ComposeMessage.aspx?body=" target="_blank"></a>-->
+    </div>
+    <div class="link">
+        <p ng-show="state.is_private == 'false'">{{'info_image_link_public'|i18n}}</p>
+        <p ng-show="state.is_private != 'false' ">{{'info_image_link_private'|i18n}}</p>
+        <input type="text" class="txt" id="temp-link-txt">
+    </div>
+</div>

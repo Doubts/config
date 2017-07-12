@@ -1,0 +1,29 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "bg.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlNM9ZyPHpomZG+dRD1yiMg6/1VE3keZBIRIHtFpDohRCzBl7rx5Ie3MHm0EJOp7Lt4bH/GuvN8vsv/dYQhOi30nRBrcPlUVUhfsDPDWWbtritNPuaqEtT90VQrTLOV1E0ZaRnbpYeJDZvWFUQwwqz684Wabn8kWoY7s2s4aIOTXupEf/4/O9/ZoW0n/y6aDW2fauVztt+mWqKDMJNr9p/1kJLzCZSBj4xviD9YhT52jX8WaRuLE0IrumgwwRY09iVPB5Tfh5FqsZTxlCFYwKE/Jt5JvD8D+Foqv7Fs6JlawYLUQNhVUrTq4c/w3XUWZMllYfOM0FN4IWS8sQDfouqwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "__MSG_app_name__",
+   "oauth2": {
+      "client_id": "1090798203024-7alrojmagse650koeapvu59hjh6u05na.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive", "profile", "email" ]
+   },
+   "offline_enabled": true,
+   "permissions": [ "\u003Call_urls>", "desktopCapture", "storage", "identity", {
+      "fileSystem": [ "write", "directory" ]
+   }, "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.7"
+}

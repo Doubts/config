@@ -1,0 +1,38 @@
+<div class="setting-panel" ng-class="{show: show}">
+    <div class="setting-part">
+        <p class="setting-title">{{"General_setting" | i18n}}</p>
+        <div>
+            <span>{{"Setting_format" | i18n}}</span>
+            <label for="f-png">
+                <input type="radio" value="PNG" id="f-png" ng-model="format" ng-change="formatOnChange()">
+                PNG
+            </label>
+            <label for="f-jpg">
+                <input type="radio" value="JPG" ng-model="format" id="f-jpg" ng-change="formatOnChange()">
+                JPG
+            </label>
+        </div>
+        <div>
+            <span>{{"info_auto_fit_screen"|i18n}}</span>
+            <label for="a-yes">
+                <input type="radio" value='true' id="a-yes" ng-model="auto_fit_screen" ng-change="autoFitChange()">
+                {{"Yes" | i18n }}
+            </label>
+            <label for="a-no">
+                <input type="radio" value='false' id="a-no" ng-model="auto_fit_screen" ng-change="autoFitChange()">
+                {{"No" | i18n }}
+            </label>
+        </div>
+    </div>
+
+    <div class="setting-part">
+        <p class="setting-title">{{"About" | i18n}}</p>
+        <p>{{"app_name" | i18n}}</p>
+        <p class="light">Version: 1.0.7</p>
+        <p class="light">Updated: June 14,2016</p>
+    </div>
+    <div class="setting-part">
+        <p>{{"Feedback_tip" | i18n}} <a href="mailto:screenshot+chrome@diigo.com?subject=Awesome%20Screenshot%20(Chrome%20App)%20Feedback" target="_blank">{{"Feedback_link" | i18n}}</a></p>
+    </div>
+    <a class="setting-close" href="#" ng-click="close()"></a>
+</div>

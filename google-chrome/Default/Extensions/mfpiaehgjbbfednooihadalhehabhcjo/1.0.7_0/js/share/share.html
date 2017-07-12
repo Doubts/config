@@ -1,0 +1,214 @@
+<div class="share-panel" id="share-content">
+    <div class="share-left" id="share-left-panel">
+        <div class="image-container">
+            <img id="share-image" />
+        </div>
+    </div>
+    <div class="share-right" id="share-right-panel">
+        <div class="part btn-part">
+            <a ng-click="edit()">{{(re_edit == true ? 'Re_edit' : 'Edit') | i18n}}</a>
+            <a ng-click="gallery()">{{'Go_to_gallery'|i18n}}</a>
+        </div>
+        <div class="part online-part">
+            <p class="title"><span ng-show="state.process == ''">{{'Save_Online'|i18n}}</span><a ng-show="state.process != ''" class="ng-hide" ng-click="back()" >« {{'Back'|i18n}}</a></p>
+
+            <div class="panel-out" id="share-panel-out">
+
+                <div class="panel op">
+                    <a ng-click="temp()"><i></i>{{'Temporarily'|i18n}}<b></b></a>
+                    <a ng-click="diigo()"><i></i>{{'Permanently_on_Diigo'|i18n}}<b></b></a>
+                    <a ng-click="google()"><i></i>{{'On_Google_Drive'|i18n}}<b></b></a>
+                </div>
+
+                <div class="panel temp-panel ng-hide">
+                    <div class="step save">
+                        <p>
+                           <!--{{'Your screenshot will be saved on Awesomescreenshot.com, which will be automatically removed after about 3 days.}}-->
+                            {{'info_awesome'|i18n}}
+                        </p>
+                        <a class="btn"  ng-class="state.uploading ? 'disable' : ''" ng-click="temp_save()">
+                            <div class="rectangle-bounce" ng-show="state.uploading" class="ng-hide">
+                                <div class="rect1"></div>
+                                <div class="rect2"></div>
+                                <div class="rect3"></div>
+                            </div>
+                            <span>{{(state.uploading ? 'Uploading'  : 'Save') | i18n}}</span>
+                        </a>
+                        <div style="clear: both;"></div>
+                    </div>
+
+                    <div diigo-share-panel></div>
+                </div>
+                <div class="panel diigo-panel ng-hide">
+                    <div class="step login">
+                       <!-- <div class="connect">
+                            <p>
+                                &lt;!&ndash;New to Diigo? Connect to diigo.com via:&ndash;&gt;
+                                {{'info_new_diigo'|i18n}}
+                            </p>
+                            <a class="btn" ng-class="state.connecting ? 'disable' : ''" ng-click="diigo_connect()">
+                                <div class="rectangle-bounce" ng-show="state.connecting" class="ng-hide">
+                                    <div class="rect1"></div>
+                                    <div class="rect2"></div>
+                                    <div class="rect3"></div>
+                                </div>
+                                {{(state.connecting ? 'Connecting' : 'Google Account')|i18n}}
+                            </a>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <div class="sep"></div>-->
+
+                        <div class="signin">
+                            <p>
+                                <!--Already have an Diigo.com?-->
+                                {{'info_already_diigo'|i18n}}
+                            </p>
+                            <div class="err ng-hide">{{'info_up_incorrect'|i18n}}.</div>
+                            <div class="uname">
+                                <input type="text" placeholder="{{'Username_Email'|i18n}}" ng-keydown="InputKeyDownHandler($event)">
+                            </div>
+                            <div class="pwd">
+                                <input type="password" placeholder="{{'Password'|i18n}}" ng-keydown="InputKeyDownHandler($event)">
+                            </div>
+                            <div>
+                                <a class="forget" href="https://www.diigo.com/user_mana2/forgot" target="_blank">{{'Forget_password'|i18n}}?</a>
+                                <a class="btn" ng-class="state.uploading ? 'disable' : ''" ng-click="diigo_signin()">
+                                    <div class="rectangle-bounce" ng-show="state.uploading" class="ng-hide">
+                                        <div class="rect1"></div>
+                                        <div class="rect2"></div>
+                                        <div class="rect3"></div>
+                                    </div>
+                                    {{(state.uploading ? 'Sign_Ining' : 'Sign_In') | i18n}}
+                                </a>
+                            </div>
+                            <div class="diigo-sign-up">
+                                <p>{{'info_new_diigo2'|i18n}} <a href="https://www.diigo.com/sign-up" target="_blank">{{'sign_up'|i18n}}</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step save ng-hide">
+                        <div class="save-form" ng-show="state.exceeded == false">
+                            <div class="title">
+                                <input type="text" placeholder="{{'Title'|i18n}}">
+                            </div>
+                            <div class="tags">
+                                <input type="text" placeholder="{{'Tags'|i18n}}">
+                            </div>
+                            <div class="cmd">
+                                <label for="p-check"><input ng-model="state.is_private" type="checkbox" id="p-check" />&nbsp;{{'Private'|i18n}}</label>
+                                <a class="btn" ng-class="(state.uploading || state.exceeded) ? 'disable' : ''" ng-click="diigo_save()">
+                                    <div class="rectangle-bounce" ng-show="state.uploading" class="ng-hide">
+                                        <div class="rect1"></div>
+                                        <div class="rect2"></div>
+                                        <div class="rect3"></div>
+                                    </div>
+                                    {{(state.uploading ? 'Uploading'  : 'Save' )| i18n}}
+                                </a>
+                            </div>
+                            <div class="info">
+                                <a class="username" target="_blank" title="{{'View_Images_Diigo'|i18n}}" href="javascript:;">xiaoge</a>
+                                <a class="signout" ng-click="diigo_signout()">{{'Sign_out'|i18n}}</a>
+                            </div>
+                        </div>
+
+                        <div class="premium ng-hide" ng-show="state.exceeded">
+                            <!--You have exceeded free image storage capacity, you can go premium.-->
+                            {{'info_exceeded'|i18n}}
+                            <a href="http://www.diigo.com/premium" target="_blank">{{'Learn_more'|i18n}} »</a>
+                        </div>
+                    </div>
+
+                    <div diigo-share-panel></div>
+
+                </div>
+                <div class="panel google-panel ng-hide">
+                    <div class="step login">
+                        <div class="connect">
+                            <p>
+                                <!--{{Please login google account first:}}-->
+                                {{'info_google_oauth'|i18n}}
+                            </p>
+                            <a class="btn" ng-class="state.connecting ? 'disable' : ''" ng-click="google_login()">
+                                <div class="rectangle-bounce" ng-show="state.connecting" class="ng-hide">
+                                    <div class="rect1"></div>
+                                    <div class="rect2"></div>
+                                    <div class="rect3"></div>
+                                </div>
+                                {{(state.connecting ? 'Connecting'  : 'Login_Google') | i18n}}
+                            </a>
+                            <div style="clear:both;"></div>
+                        </div>
+                    </div>
+                    <div class="step save ng-hide">
+                        <div class="title">
+                            <input type="text" placeholder="{{'Title'|i18n}}">
+                        </div>
+                        <div class="cmd">
+                            <label for="p2-check"><input ng-model="state.is_private" id="p2-check" type="checkbox" />&nbsp;{{'Private'|i18n}}</label>
+                            <a class="btn" ng-class="state.uploading ? 'disable' : ''" ng-click="google_save()">
+                                <div class="rectangle-bounce" ng-show="state.uploading" class="ng-hide">
+                                    <div class="rect1"></div>
+                                    <div class="rect2"></div>
+                                    <div class="rect3"></div>
+                                </div>
+                                {{(state.uploading ? 'Uploading' : 'Save' )|i18n}}
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div><a class="email">abeyuhang@gmail.com</a></div>
+                        </div>
+                    </div>
+
+                    <div diigo-share-panel></div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="part local-part clearfix">
+            <p>{{'Save_Local'|i18n}}</p>
+            <div class="op clearfix">
+                <a ng-click="save()" adjust-tip><span>{{"tip_save" | i18n}}</span><i></i></a>
+                <!--<a ng-click="copy()" adjust-tip><span>{{"tip_copy" | i18n}}</span><i></i></a>-->
+                <a ng-click="print()" adjust-tip><span>{{"tip_print" | i18n}}</span><i></i></a>
+            </div>
+        </div>
+        <div class="part about-part ng-hide">
+            <h3>{{'About_Diigo'|i18n}}:</h3>
+            <div>
+                <p>
+                    <!--Diigo is a free, all-purpose collecting tool that enables you to-->
+                    {{'info_diigo_a'|i18n}}
+                </p>
+                <ul>
+                    <li>
+                        <!--bookmark, archive and annotate webpages.-->
+                        {{'info_diigo_b'|i18n}}
+                    </li>
+                    <li>
+                        <!--save notes, images and screenshots.-->
+                        {{'info_diigo_c'|i18n}}
+                    </li>
+                    <li>
+                        <!--search, organize, and share your data in a variety of ways.-->
+                        {{'info_diigo_d'|i18n}}
+                    </li>
+                    <li>
+                        <!--access anywhere using Diigo apps on Android, Iphone and Ipad.-->
+                        {{'info_diigo_e'|i18n}}
+                    </li>
+                    <li>
+                        <p style="margin-left:0"><a href="https://www.diigo.com" target="_blank">{{'Learn_more'|i18n}}</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="promotion" ng-show="ifPromote">
+            <p>Like it?  Help us spread the word! </p>
+            <div class="pro-close" ng-click="removePromotion()"></div>
+            <a class="pro-btn" target="_blank" href="https://chrome.google.com/webstore/detail/awesome-screenshot-app/afkccfnochoebimhhniekgcegeeiepmi/reviews">Give us a 5-star rating</a>
+        </div>
+    </div>
+    <div class="copy-area" id="copy-area"><img /></div>
+</div>

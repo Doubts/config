@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://smallpdf.com/lang/jpg"
+      },
+      "urls": [ "http://smallpdf.com/lang/jpg" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkHon7AIFxotlroeuXCpDLXdFRf5sPvJdD5Fxk88pnFATEJg3C06gCK2Sf0yD+5Bs/JaCUoXzN/eWQ27eW/6OjnQw688nszGsiSzbcLH/ZO7SeJ8rSguyvsre9z1HtQKr1Ci4SHMBX7ET5aap+8aGsqWkL5kw9tLTVzDGi5lRp6O1Sv6qkOqvS0w+VCg5WeFAvDVrMSTGVoSosyWQ3FAtdudzfSIdXwWkwnkLDeAgwreinjiyZ/4qP2jFz0xsSft33BnUIpzfoWpLyBa2DlGF84/ErE5ZlcoNifX3yEvnD6Sm46vIo9H1MgG+4n6UwGlbP+W2vN5DDSHugVETHIj33QIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "short_name": "__MSG_appShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.5"
+}

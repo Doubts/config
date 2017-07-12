@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WLD Unlock</title>
+
+    <!-- Bootstrap -->
+    <script src='util.js'></script>
+    <script src='list.js'></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="cover.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Unlocker for Wakelock detector</h3>
+              <h5>This Chrome extension lets you grant BATTERY_STATS permission to your Android phone(tablet) by using ADB.</h5>
+              <h6>Make sure to connect your device through USB and enable usb debugging on your phone</h6>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#" id='toggle-server'>Kill Server</a></li>
+                <li class="active"><a href="#" id='refresh-devices'>Refresh Devices</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div id='devices-header' class="inner cover">
+            <!--<h1 class="cover-heading">Connected Devices</h1>-->
+            <div id='devices'>
+              <p class="lead">
+                <a href="#" class="btn btn-lg btn-default">No devices connected</a>
+              </p>
+            </div>
+          </div>
+
+		  <div class="mastfoot">
+            <div class="inner">
+              <p id='windows'>Windows users need ADB Drivers:
+              1. Universal Windows Adb driver: [http://koush.com/post/universal-adb-driver]
+              2. Adb Minimal Usb driver: [http://forum.xda-developers.com/showthread.php?t=2317790]
+              Download and Install One Above Drivers, then Restart Chrome.
+              </p>
+              <div id='messages'></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="common/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="common/list.js"></script>
+  </body>
+</html>

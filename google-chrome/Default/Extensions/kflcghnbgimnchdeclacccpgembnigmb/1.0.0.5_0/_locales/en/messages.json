@@ -1,0 +1,13 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Convert your images to beautiful PDFs - just like you want it"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Image to PDF Converter - Smallpdf.com"
+   },
+   "appShortName": {
+      "message": "Image to PDF"
+   }
+}
